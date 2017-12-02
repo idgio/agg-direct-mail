@@ -178,6 +178,32 @@
             .stack-column-center {
                 text-align: center !important;
             }
+            .full-col
+            {
+                display: block !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+                padding: 10px 10px 20px !important;            
+            }
+            .fix-pad
+            {
+                padding: 10px 10px 20px !important; 
+                display: block !important;
+                /*width: 100% !important;*/
+                max-width: 100% !important;
+                direction: ltr !important;    
+            }
+            .btn-effect
+            {
+                padding: 10px 10px 20px !important;
+                display: block !important;
+                width: 40% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: -18px;
+            }
 
             /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
             .center-on-narrow {
@@ -211,8 +237,8 @@
 
 </head>
 
-<body width="100%" bgcolor="#222222" style="margin: 0; mso-line-height-rule: exactly;">
-    <center style="width: 100%; background: #222222; text-align: left;">
+<body width="100%" bgcolor="#ffffff" style="margin: 0; mso-line-height-rule: exactly;">
+    <center style="width: 100%; background: #ffffff; text-align: left;">
 
         <!-- Visually Hidden Preheader Text : BEGIN -->
         <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
@@ -233,7 +259,7 @@
             <!-- Hero Image, Flush : BEGIN -->
             <tr>
                 <td bgcolor="#ffffff" align="center">
-                    <img src="header.png" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #fff; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; margin: auto;"
+                    <img src="https://raw.githubusercontent.com/idgio/agg-direct-mail/master/header.png" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #fff; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; margin: auto;"
                         class="g-img">
                 </td>
             </tr>
@@ -241,7 +267,7 @@
 
             <!-- 1 Column Text + Button : BEGIN -->
             <tr>
-                <td bgcolor="#ffffff" style="padding: 10px 40px 60px 20px;text-align: left;background-image: url(tittle.png);background-position: left;background-size: auto;background-repeat: no-repeat;">
+                <td bgcolor="#ffffff" style="padding: 10px 40px 60px 20px;text-align: left;background-image: url(https://raw.githubusercontent.com/idgio/agg-direct-mail/master/tittle.png);background-position: left;background-size: auto;background-repeat: no-repeat;">
                     <h1 style="margin: 0;font-family: sans-serif;font-size: 29px;line-height: 125%;color: #f0373f;font-weight: 800; text-transform: uppercase;">Latest <br> Articles</h1>
                 </td>
             </tr>
@@ -342,7 +368,7 @@
             <!-- Thumbnail Left, Text Right : BEGIN -->
             <tr>
                     <td bgcolor="#ffffff" align="center">
-                            <img src="phone.png" width="600" height="" alt="alt_text" border="0" align="center" style="width: 88%;max-width: 600px;height: auto;background: #dddddd;font-family: sans-serif;font-size: 15px;line-height: 140%;color: #555555;margin: auto;margin-top: -45px;" class="g-img">
+                            <img src="https://raw.githubusercontent.com/idgio/agg-direct-mail/master/phone.png" width="600" height="" alt="alt_text" border="0" align="center" style="width: 88%;max-width: 600px;height: auto;background: #dddddd;font-family: sans-serif;font-size: 15px;line-height: 140%;color: #555555;margin: auto;margin-top: -45px;" class="g-img">
                     </td>
             </tr>
             <tr>
@@ -363,7 +389,7 @@
                 <td bgcolor="#ffffff">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
-                            <td style="padding: 10px 30px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
+                            <td class="full-col" style="padding: 10px 30px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                                     <table style="background-color:#0080bb;">
                                             <tr>
                                                 <td style="padding: 10px 15px 0px;color: #fff;">
@@ -372,11 +398,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td width="80%" style="padding: 0px 15px 0px !important;color: #fff;">
+                                                <td width="80%" class="fix-pad" style="padding: 0px 15px 0px !important;color: #fff;">
                                                     Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per con.
                                                 </td>
-                                                <td width="20%" style="padding: 10px 15px;color: #fff;">
-                                                        <img src="btn.png" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%;max-width: 600px;height: auto;font-family: sans-serif;font-size: 15px;line-height: 140%;color: #555555;margin: auto;margin-bottom: -25px;" class="g-img">
+                                                <td width="20%" class="btn-effect" style="padding: 10px 15px;color: #fff;">
+                                                        <img src="https://raw.githubusercontent.com/idgio/agg-direct-mail/master/btn.png" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%;max-width: 600px;height: auto;font-family: sans-serif;font-size: 15px;line-height: 140%;color: #555555;margin: auto;margin-bottom: -25px;" class="g-img">
                                                 </td>
                                             </tr>
                                         </table>
@@ -394,7 +420,7 @@
 
 
         <!-- Full Bleed Background Section : BEGIN -->
-        <table role="presentation" bgcolor="#f13e46" cellspacing="0" cellpadding="0" border="0" align="center" width="600">
+        <table role="presentation" bgcolor="#f13e46" cellspacing="0" cellpadding="0" border="0" align="center" width="600" class="email-container"  style=" margin-top: 10px !important;">
             
                 <tr>
                     <td valign="top" align="center">
